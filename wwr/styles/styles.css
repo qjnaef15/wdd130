@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Cute+Font|Muli&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+    background-color: #2f3061;
+    color: #6ca6c1;
+    font-family: "Cute Font";
+    font-size: 2.1em;
+    padding: 0.5em;
+}
+header{
+    padding-top: 15px;
+}
+body {
+    background-color: #343434;
+}
+nav {
+    background-color: #6ca6c1;
+}
+nav a:link,
+nav a:visited {
+    color: #ebf5ee;
+}
+nav a:hover {
+    color: #f7fff7;
+    background-color: #2f3061;
+}
+nav a {
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+    line-height: 3em;
+    min-width: 70px;
+}
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: 120px;
+}
+div.content {
+    background-color: #ebf5ee;
+    max-width: 1600px;
+     display: block;
+    margin: 0 auto;
+    font-family: "Roboto";
+}
+div.button-box {
+    text-align: center;
+}
+main {
+    text-align: center;
+}
+#background {
+    height: 725px;
+    background-color: #f7fff7;
+}
+a.join {
+    background-color: #6ca6c1;
+    color: #f7fff7;
+    text-decoration: none;
+}
+a.book {
+    background-color: #6ca6c1;
+    color: #f7fff7;
+    text-decoration: none;
+}
+.icon {
+    width: 80px;
+}
+section.msg {
+    background-color: #2f3061;
+    color: #6ca6c1;
+}
+footer {
+    background-color: #6ca6c1;
+    color: #f7fff7;
+}
+footer p {
+    font-size: 1.2em;
+}  
+footer p a {
+    color: #f7fff7;
+} 
+footer p a:hover {
+    text-decoration: underline;
+    background-color: #2f3061;
+    color: #f7fff7;
+}  
