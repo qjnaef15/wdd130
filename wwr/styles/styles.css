@@ -199,6 +199,11 @@ nav a:hover {
     background-color: rgb(20, 30, 13, 17);
 }
 
+#rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
 footer {
     background-color: #6CA6C1;
     padding: 25px 50px;
