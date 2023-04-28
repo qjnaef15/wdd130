@@ -1,0 +1,53 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Header Header Header Header"
+      "banner banner banner banner"
+      "banner banner banner banner"
+      "side-image-1 mission-title mission-title side-image-2"
+      "side-image-1 mission mission side-image-2"
+      "side-image-1 mission mission side-image-2"
+      "side-image-1 contact-title contact-title side-image-2"
+      "side-image-1 contact contact side-image-2"
+      "footer footer footer footer";
+  }
+  
+  .Header { grid-area: Header; 
+
+}
+  
+  .banner { grid-area: banner; 
+            background-color: black;
+}
+  
+  .mission-title { grid-area: mission-title; 
+
+}
+  
+  .mission { grid-area: mission; 
+
+}
+  
+  .contact-title { grid-area: contact-title; 
+
+}
+  
+  .contact { grid-area: contact; 
+
+}
+  
+  .side-image-1 { grid-area: side-image-1; 
+
+}
+  
+  .side-image-2 { grid-area: side-image-2; 
+
+}
+
+  .footer { grid-area: footer; 
+
+}
+  
