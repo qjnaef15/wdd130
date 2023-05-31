@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 2;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, serif;
+    font-size: 1.2em;
+    background: #004;
+    color:ghostwhite;
+
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+legend{
+    margin: 3rem;
+    text-align: left;
+}
+
+form{
+    width: 950px;
+    margin: 0 auto;
+    border: 6px solid rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    background-color:darkmagenta;
+    padding: 3rem;
+    color:ghostwhite;
+    text-align: center;
+}
+
+button{
+    background-color: black;
+    color: ghostwhite;
+    height: 3em;
+}
+
+
