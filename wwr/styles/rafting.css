@@ -25,6 +25,17 @@
 
 }
 
+.msg {
+    background-color: #343434;
+    color: #6CA6C1;
+}
+
+.msg h2 {
+    color: #F7FFF7;
+    text-align: center;
+    padding-top: 1em;
+}
+
 h1{
     position: absolute;
     top: 320px;
@@ -35,8 +46,8 @@ h1{
 .abouth1{
     position: absolute;
     top: 320px;
-    background-color: rgba(29, 26, 5, .7);
-    color:#bcab79;
+    background-color: #343434;
+    color:#6CA6C1;
     left: 300px;
 }
 
@@ -55,7 +66,8 @@ article img {
 
 .happy p{
     max-width: 900px;
-    background-color: rgba(188, 171, 121, .7);
+    background-color: #343434;
+    color: #F7FFF7;
     text-align: center;
 }
 
@@ -104,7 +116,8 @@ p{
 
 .hist2 p {
     max-width: 900px;
-    background-color: rgba(188, 171, 121, .7);
+    background-color: #6CA6C1;
+    color: #343434;
 }
 
 .imagegrid {
@@ -185,7 +198,8 @@ form{
     margin: 0 auto;
     border: 2px solid rgba(0, 0, 0, .1);
     border-radius: .5rem;
-    background-color:#bcab79;
+    background-color:#343434;
+    color: #6CA6C1;
     padding: 1rem;
 }
 
@@ -193,10 +207,16 @@ form{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-columns: repeat(2, 1fr);
-    background-color:#bcab79;
+    background-color:#343434;
+    color: #6CA6C1;
     border-style: solid;
     
 }
+
+.info h3 {
+    color: #F7FFF7;
+}
+
 .address1{
     grid-column: 1/2;
     grid-row: 2/3;
@@ -249,14 +269,14 @@ form{
     display: flex;
     justify-content: center;
     border-style: solid;
-    background-color: #36454f;
-    color:#bcab79;
+    background-color: #343434;
+    color:#6CA6C1;
 }
 .emp{
     display: flex;
     justify-content: center;
-    background-color: #36454f;
-    color:#bcab79;
+    background-color: #343434;
+    color:#6CA6C1;
     border-style: solid;
     padding: 1rem;
     margin: 1rem;
@@ -268,7 +288,7 @@ form{
 
 }
 
-.erica{
+.steven{
     max-width: 400px;
     max-height: auto;
     grid-row: 1/3;
@@ -296,8 +316,8 @@ form{
     display: flex;
     justify-content: center;
     border-style: solid;
-    background-color: #36454f;
-    color:#bcab79;
+    background-color: #343434;
+    color:#6CA6C1;
 
 }
 
@@ -334,8 +354,8 @@ form{
     justify-content: center;
     grid-row: 2/3;
     border-style: solid;
-    background-color: #36454f;
-    color:#bcab79;
+    background-color: #343434;
+    color:#6CA6C1;
     margin: 1rem;
     
 }
@@ -344,7 +364,8 @@ form{
     grid-row: 4/5;
     display: flex;
     justify-content: center;
-    background-color: rgb(188,171,121, .5);
+    background-color: #2F3061;
+    color: #6CA6C1;
     margin: 1rem;
 
 }
@@ -356,8 +377,8 @@ form{
     display: flex;
     justify-content: center;
     border-style: solid;
-    background-color: #36454f;
-    color:#bcab79;
+    background-color: #343434;
+    color:#6CA6C1;
     font-size: 2rem;
     padding: .5rem;
     margin: 1rem;
@@ -367,8 +388,8 @@ form{
     display: flex;
     justify-content: center;
     border-style: solid;
-    background-color: #36454f;
-    color:#bcab79;
+    background-color: #343434;
+    color:#6CA6C1;
     font-size: 2rem;
     padding: .5rem;
     margin: 1rem;
@@ -378,8 +399,8 @@ form{
     display: flex;
     justify-content: center;
     border-style: solid;
-    background-color: #bcab79;
-    color:#Af3f2b;
+    background-color: #6CA6C1;
+    color:#343434;
     font-size: 2rem;
     padding: .5rem;
     margin: 1rem;
